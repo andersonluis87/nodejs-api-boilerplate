@@ -1,0 +1,37 @@
+{
+  "name": "homecare",
+  "version": "1.0.0",
+  "description": "Homecare's backend developed by MPA2 Solutions to support nurses while working on home care",
+  "main": "index.js",
+  "author": "MPA2 Solutions",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/server.js",
+    "dev:debug": "NODE_ENV=development nodemon --inspect src/server.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^6.2.0",
+    "sucrase": "^3.15.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.3",
+    "uuidv4": "^6.1.1",
+    "youch": "^2.0.10"
+  }
+}
